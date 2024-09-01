@@ -7,18 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		931391F72C670DC300EA819A /* TicTacToeActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931391F62C670DC300EA819A /* TicTacToeActivity.swift */; };
 		933386C12C547D0A00138D52 /* TicTacToeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933386C02C547D0A00138D52 /* TicTacToeApp.swift */; };
 		933386C32C547D0A00138D52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933386C22C547D0A00138D52 /* ContentView.swift */; };
 		933386C52C547D0B00138D52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933386C42C547D0B00138D52 /* Assets.xcassets */; };
 		933386C82C547D0B00138D52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933386C72C547D0B00138D52 /* Preview Assets.xcassets */; };
+		934834C42C61B24500E976E3 /* GroupActivitySharingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934834C32C61B24500E976E3 /* GroupActivitySharingViewController.swift */; };
+		9371DDCF2C66C7FD00847DD2 /* TicTacToeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9371DDCE2C66C7FD00847DD2 /* TicTacToeGame.swift */; };
+		93EC2C2D2C844DE400C78B90 /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EC2C2C2C844DE400C78B90 /* SquareView.swift */; };
+		93EC2C2F2C844E0000C78B90 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EC2C2E2C844E0000C78B90 /* GameViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		931391F62C670DC300EA819A /* TicTacToeActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeActivity.swift; sourceTree = "<group>"; };
 		933386BD2C547D0A00138D52 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		933386C02C547D0A00138D52 /* TicTacToeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeApp.swift; sourceTree = "<group>"; };
 		933386C22C547D0A00138D52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		933386C42C547D0B00138D52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		933386C72C547D0B00138D52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		934834C22C61A95D00E976E3 /* TicTacToe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TicTacToe.entitlements; sourceTree = "<group>"; };
+		934834C32C61B24500E976E3 /* GroupActivitySharingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupActivitySharingViewController.swift; sourceTree = "<group>"; };
+		9371DDCE2C66C7FD00847DD2 /* TicTacToeGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeGame.swift; sourceTree = "<group>"; };
+		93EC2C2C2C844DE400C78B90 /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
+		93EC2C2E2C844E0000C78B90 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +62,14 @@
 		933386BF2C547D0A00138D52 /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
+				934834C22C61A95D00E976E3 /* TicTacToe.entitlements */,
 				933386C02C547D0A00138D52 /* TicTacToeApp.swift */,
 				933386C22C547D0A00138D52 /* ContentView.swift */,
+				93EC2C2E2C844E0000C78B90 /* GameViewModel.swift */,
+				93EC2C2C2C844DE400C78B90 /* SquareView.swift */,
+				931391F62C670DC300EA819A /* TicTacToeActivity.swift */,
+				9371DDCE2C66C7FD00847DD2 /* TicTacToeGame.swift */,
+				934834C32C61B24500E976E3 /* GroupActivitySharingViewController.swift */,
 				933386C42C547D0B00138D52 /* Assets.xcassets */,
 				933386C62C547D0B00138D52 /* Preview Content */,
 			);
@@ -137,8 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				934834C42C61B24500E976E3 /* GroupActivitySharingViewController.swift in Sources */,
 				933386C32C547D0A00138D52 /* ContentView.swift in Sources */,
 				933386C12C547D0A00138D52 /* TicTacToeApp.swift in Sources */,
+				93EC2C2D2C844DE400C78B90 /* SquareView.swift in Sources */,
+				931391F72C670DC300EA819A /* TicTacToeActivity.swift in Sources */,
+				9371DDCF2C66C7FD00847DD2 /* TicTacToeGame.swift in Sources */,
+				93EC2C2F2C844E0000C78B90 /* GameViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TicTacToe/TicTacToe.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TicTacToe/Preview Content\"";
@@ -280,6 +303,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,6 +322,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TicTacToe/TicTacToe.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TicTacToe/Preview Content\"";
@@ -309,6 +334,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
